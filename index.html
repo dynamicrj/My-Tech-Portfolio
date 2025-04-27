@@ -1,0 +1,415 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Zahira Shaik | Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+    /* Smooth fade-in animation for sections */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s forwards;
+    }
+    .fade-in.delay-1 {
+      animation-delay: 0.2s;
+    }
+    .fade-in.delay-2 {
+      animation-delay: 0.4s;
+    }
+    .fade-in.delay-3 {
+      animation-delay: 0.6s;
+    }
+    .fade-in.delay-4 {
+      animation-delay: 0.8s;
+    }
+    .fade-in.delay-5 {
+      animation-delay: 1s;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-800 antialiased leading-relaxed">
+  <header class="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 text-white sticky top-0 z-50 shadow-md">
+   <nav class="max-w-7xl mx-auto px-6 py-4 flex flex-wrap items-center justify-between">
+    <a class="text-2xl font-bold tracking-wide hover:text-gray-200" href="#hero">
+     Zahira Shaik
+    </a>
+    <ul class="flex space-x-6 text-sm font-semibold">
+     <li>
+      <a class="hover:text-gray-200" href="#about">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#education">
+       Education
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#skills">
+       Skills
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#projects">
+       Projects
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#experience">
+       Experience
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#internships">
+       Internships
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#certifications">
+       Certifications
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#achievements">
+       Achievements
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-gray-200" href="#contact">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main class="max-w-7xl mx-auto px-6 py-12">
+   <!-- Hero Section -->
+   <section class="fade-in" id="hero">
+    <div class="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
+     <div class="w-full md:w-1/2 text-center md:text-left">
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-3">
+       Zahira Shaik
+      </h1>
+      <p class="text-xl sm:text-2xl font-semibold text-gray-700 mb-2">
+       Aspiring AI/ML Engineer | Front-End Developer | Content Writer
+      </p>
+      <p class="text-gray-600 italic mb-6">
+       "Driven to innovate, dedicated to excel."
+      </p>
+      <div class="flex flex-wrap justify-center md:justify-start gap-4">
+       <a aria-label="Download Resume" class="inline-flex items-center px-5 py-3 bg-blue-700 hover:bg-blue-800 text-white rounded-md font-semibold shadow-md transition" download="" href="https://drive.google.com/uc?export=download&amp;id=1a2b3c4d5e6f7g8h9i0j">
+        <i class="fas fa-file-download mr-2">
+        </i>
+        Resume
+       </a>
+       <a aria-label="LinkedIn Profile" class="inline-flex items-center px-5 py-3 bg-gray-800 hover:bg-gray-900 text-white rounded-md font-semibold shadow-md transition" href="https://www.linkedin.com/in/zahira-shaik-1ab213262/" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-linkedin mr-2">
+        </i>
+        LinkedIn
+       </a>
+       <a aria-label="GitHub Profile" class="inline-flex items-center px-5 py-3 bg-gray-800 hover:bg-gray-900 text-white rounded-md font-semibold shadow-md transition" href="https://github.com/dynamicrj" rel="noopener noreferrer" target="_blank">
+        <i class="fab fa-github mr-2">
+        </i>
+        GitHub
+       </a>
+      </div>
+     </div>
+     <div class="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
+      <img alt="Portrait of Zahira Shaik smiling with professional attire and clean background" class="rounded-full shadow-lg w-48 h-48 sm:w-64 sm:h-64 object-cover" height="300" loading="lazy" src="zahi piccc.jpg" width="300"/>
+     </div>
+    </div>
+   </section>
+   <!-- About Me -->
+   <section class="fade-in delay-1 mt-20 max-w-4xl mx-auto" id="about">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     About Me
+    </h2>
+    <p class="text-gray-700 text-lg leading-relaxed">
+     I'm a driven problem-solver with a strong foundation in data structures, algorithms, and web development. I thrive in fast-paced environments, embrace challenges, and am passionate about using technology to make a positive impact.
+    </p>
+   </section>
+   <!-- Education -->
+   <section class="fade-in delay-2 mt-20 max-w-4xl mx-auto" id="education">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Education
+    </h2>
+    <ul class="space-y-6 text-gray-700">
+     <li>
+      <h3 class="text-xl font-semibold text-gray-900">
+       B.Tech in Computer Science Engineering (Artificial Intelligence and Machine Learning)
+      </h3>
+      <p class="italic">
+       Vasireddy Venkatadri Institute of Technology
+      </p>
+      <p>
+       CGPA: 8 (Graduating in 2026)
+      </p>
+     </li>
+     <li>
+      <h3 class="text-xl font-semibold text-gray-900">
+       Intermediate
+      </h3>
+      <p class="italic">
+       Narayana Junior College
+      </p>
+      <p>
+       Percentage: 86%
+      </p>
+     </li>
+     <li>
+      <h3 class="text-xl font-semibold text-gray-900">
+       SSC
+      </h3>
+      <p class="italic">
+       Ravindra Bharathi Public School
+      </p>
+      <p>
+       GPA: 9.5
+      </p>
+     </li>
+    </ul>
+   </section>
+   <!-- Skills -->
+   <section class="fade-in delay-3 mt-20 max-w-4xl mx-auto" id="skills">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Skills
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-gray-700">
+     <div class="bg-blue-50 rounded-lg p-4 shadow-sm">
+      <h3 class="font-semibold text-lg mb-2 text-blue-800">
+       Programming
+      </h3>
+      <ul class="list-disc list-inside space-y-1">
+       <li>
+        C
+       </li>
+       <li>
+        Python
+       </li>
+       <li>
+        Java
+       </li>
+      </ul>
+     </div>
+     <div class="bg-blue-50 rounded-lg p-4 shadow-sm">
+      <h3 class="font-semibold text-lg mb-2 text-blue-800">
+       Web Development
+      </h3>
+      <ul class="list-disc list-inside space-y-1">
+       <li>
+        HTML
+       </li>
+       <li>
+        CSS
+       </li>
+       <li>
+        JavaScript (Basics)
+       </li>
+      </ul>
+     </div>
+     <div class="bg-blue-50 rounded-lg p-4 shadow-sm">
+      <h3 class="font-semibold text-lg mb-2 text-blue-800">
+       Tools
+      </h3>
+      <ul class="list-disc list-inside space-y-1">
+       <li>
+        MS Office Suite (Word, Excel, PowerPoint)
+       </li>
+      </ul>
+     </div>
+     <div class="bg-blue-50 rounded-lg p-4 shadow-sm">
+      <h3 class="font-semibold text-lg mb-2 text-blue-800">
+       Other
+      </h3>
+      <ul class="list-disc list-inside space-y-1">
+       <li>
+        SEO Basics
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <!-- Projects -->
+   <section class="fade-in delay-4 mt-20 max-w-6xl mx-auto" id="projects">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Projects
+    </h2>
+    <div class="space-y-10">
+     <article class="bg-blue-50 rounded-lg p-6 shadow-md hover:shadow-lg transition">
+      <h3 class="text-2xl font-semibold text-blue-800 mb-2">
+       Podcast Portal
+      </h3>
+      <p class="text-gray-700 mb-3">
+       Front-end website with a searchable episode grid, clean UI/UX focused on storytelling.
+      </p>
+      <a aria-label="GitHub repository for Podcast Portal" class="inline-flex items-center text-blue-700 font-semibold hover:underline" href="http://www.github.com/dynamicrj/Podcast-Website" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-github mr-2">
+       </i>
+       Podcast Website
+      </a>
+      <div class="mt-4 flex justify-center md:justify-start">
+       <img alt="Screenshot of Podcast Portal website showing searchable episode grid and clean UI" class="rounded-md shadow-md w-full max-w-xl object-cover" height="300" loading="lazy" src="DRJ Website.png" width="600"/>
+      </div>
+     </article>
+     <article class="bg-blue-50 rounded-lg p-6 shadow-md hover:shadow-lg transition">
+      <h3 class="text-2xl font-semibold text-blue-800 mb-2">
+       Tinder Clone
+      </h3>
+      <p class="text-gray-700 mb-3">
+       Responsive web-based dating app using HTML/CSS with swipe-based card layouts; upcoming updates with JavaScript features.
+      </p>
+      <a aria-label="GitHub repository for Tinder Clone" class="inline-flex items-center text-blue-700 font-semibold hover:underline" href="https://github.com/dynamicrj/Tinder-Clone" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-github mr-2">
+       </i>
+       Tinder Clone
+      </a>
+      <div class="mt-4 flex justify-center md:justify-start">
+       <img alt="Screenshot of Tinder Clone web app showing swipe card layouts and responsive design" class="rounded-md shadow-md w-full max-w-xl object-cover" height="300" loading="lazy" src="Tinder Clone Img.png" width="600"/>
+      </div>
+     </article>
+     <article class="bg-blue-50 rounded-lg p-6 shadow-md hover:shadow-lg transition">
+      <h3 class="text-2xl font-semibold text-blue-800 mb-2">
+       Mental Health Organization Portal
+      </h3>
+      <p class="text-gray-700 mb-3">
+       Website built on Wix Studio for Aasiya Mental Health Organization, promoting mental health awareness with SEO strategies.
+      </p>
+      <a aria-label="GitHub repository for Mental Health Organization Portal" class="inline-flex items-center text-blue-700 font-semibold hover:underline" href="https://github.com/dynamicrj/Mental-Health-Organization-Website" rel="noopener noreferrer" target="_blank">
+       <i class="fab fa-github mr-2">
+       </i>
+       Mental Health Organization Website
+      </a>
+      <div class="mt-4 flex justify-center md:justify-start">
+       <img alt="Screenshot of Mental Health Organization Portal website showing homepage and SEO features" class="rounded-md shadow-md w-full max-w-xl object-cover" height="300" loading="lazy" src="AMHO WEB.png" width="600"/>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Experience -->
+   <section class="fade-in delay-5 mt-20 max-w-4xl mx-auto" id="experience">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Experience
+    </h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-3 text-lg">
+     <li>
+      Senior Content Writer at WAY Organization.
+     </li>
+     <li>
+      Class Representative for 3 semesters.
+     </li>
+     <li>
+      College Magazine Writer.
+     </li>
+     <li>
+      Host for TEDxVVIT 2023.
+     </li>
+    </ul>
+   </section>
+   <!-- Internships -->
+   <section class="fade-in delay-5 mt-20 max-w-4xl mx-auto" id="internships">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Internships
+    </h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-3 text-lg">
+     <li>
+      Web Development Virtual Internship (EduSkills, AICTE) – Gained hands-on experience in HTML, CSS, JS, responsive design.
+     </li>
+    </ul>
+   </section>
+   <!-- Certifications -->
+   <section class="fade-in delay-5 mt-20 max-w-4xl mx-auto" id="certifications">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Certifications
+    </h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-3 text-lg">
+     <li>
+      Full Stack Development (Infosys Springboard)
+     </li>
+     <li>
+      Google Cloud Computing Foundations Badge
+     </li>
+     <li>
+      SEO Completion Certificate (HubSpot Academy)
+     </li>
+    </ul>
+   </section>
+   <!-- Achievements -->
+   <section class="fade-in delay-5 mt-20 max-w-4xl mx-auto" id="achievements">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Achievements
+    </h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-3 text-lg">
+     <li>
+      Solved 75+ DSA problems on LeetCode.
+     </li>
+     <li>
+      Certified Python Problem Solver (Pynative).
+     </li>
+    </ul>
+   </section>
+   <!-- Contact Section -->
+   <section class="fade-in delay-5 mt-20 max-w-4xl mx-auto mb-20" id="contact">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 border-b-4 border-blue-300 inline-block pb-1">
+     Contact
+    </h2>
+    <div class="bg-blue-50 rounded-lg p-8 shadow-md">
+     <ul class="space-y-6 text-gray-800 text-lg">
+      <li class="flex items-center space-x-4">
+       <i class="fas fa-envelope text-blue-700 text-xl w-6">
+       </i>
+       <a class="hover:underline" href="mailto:zahirashaik4545@gmail.com">
+        zahirashaik4545@gmail.com
+       </a>
+      </li>
+      <li class="flex items-center space-x-4">
+       <i class="fas fa-phone-alt text-blue-700 text-xl w-6">
+       </i>
+       <a class="hover:underline" href="tel:+917893982875">
+        +91 7893982875
+       </a>
+      </li>
+      <li class="flex items-center space-x-4">
+       <i class="fas fa-map-marker-alt text-blue-700 text-xl w-6">
+       </i>
+       <span>
+        Vijayawada, Andhra Pradesh
+       </span>
+      </li>
+      <li class="flex items-center space-x-4">
+       <i class="fab fa-github text-blue-700 text-xl w-6">
+       </i>
+       <a class="hover:underline" href="https://github.com/dynamicrj" rel="noopener noreferrer" target="_blank">
+        dynamicrj
+       </a>
+      </li>
+      <li class="flex items-center space-x-4">
+       <i class="fab fa-linkedin text-blue-700 text-xl w-6">
+       </i>
+       <a class="hover:underline" href="https://www.linkedin.com/in/zahira-shaik-1ab213262/" rel="noopener noreferrer" target="_blank">
+        Zahira Shaik
+       </a>
+      </li>
+     </ul>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-blue-700 text-white py-6 text-center text-sm">
+   © 2024 Zahira Shaik. All rights reserved.
+  </footer>
+ </body>
+</html>
